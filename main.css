@@ -1,0 +1,89 @@
+.class {
+  font-family: Consolas,monaco,monospace;
+}
+
+.classesBox {
+  position:absolute;
+  top:55px;
+  left: 0;
+  height:10px;
+  width: 300px;
+  z-index:-1;
+}
+
+.theme {
+  background-color: #262626;
+  color: aliceblue;
+}
+
+.themeTextSmall {
+  color: aliceblue;
+  font-size: 90%;
+}
+
+.themeText {
+  color: aliceblue;
+}
+
+.deobfuscatedClassSpacer {
+  left: 6px;
+  font-size: 90%;
+  width: 160px;
+}
+
+.classesBoxTheme {
+  background-color: #333333;
+  color: aliceblue;
+  width: 165px;
+}
+
+.classesBoxTheme.active {
+  color: #ffffff;
+  background-color: #070707;
+  border-color: #070707;
+}
+
+.codeView {
+  position: absolute;
+  top: 280px;
+  left: 75px;
+  width: 80vw;
+}
+
+.classesBackground {
+  background-color: #333333;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  height: 94vh;
+  overflow:hidden;
+  z-index:-10;
+  width: 150px;
+}
+
+html{
+  min-height:100%;
+  position:relative;
+}
+body{
+  height:100%;
+}
+html {
+  --scrollbarBG: #CFD8DC;
+  --thumbBG: #90A4AE;
+}
+
+.scroller {
+  overflow-x: scroll;
+  scrollbar-color: rebeccapurple green;
+}
+
+.deobfuscatedClassesList {
+  max-height: 53vh;
+}
+
+.obfuscatedClassList {
+  max-height: 40vh;
+}
